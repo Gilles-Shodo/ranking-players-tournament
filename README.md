@@ -23,10 +23,10 @@ To build or run the project, use the following tasks:
 
 For standalone usage, use the following tasks:
 
-| Task                     | Description                                                          |
-|--------------------------|----------------------------------------------------------------------|
-| `gradle buildFatJar`     | Build an executable JAR of the server with all dependencies included |
-| `java -jar <fatJar.jar>` | Run jar (location : ranking-players-tournament/build/libs)           |
+| Task                                           | Description                                                          |
+|------------------------------------------------|----------------------------------------------------------------------|
+| `gradle buildFatJar`                           | Build an executable JAR of the server with all dependencies included |
+| `java -jar ranking-players-tournament-all.jar` | Run jar (location : ranking-players-tournament/build/libs)           |
 
 Server is accessible from url : http://localhost:8080/
 
